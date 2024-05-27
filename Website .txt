@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecowaste - Eco-Friendly Waste Solutions for Broward County</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Eco-Friendly Waste Solutions for Broward County</h1>
+            <p>Sustainable, Reliable, and Local</p>
+            <a href="#contact" class="cta-button">Get a Quote Today</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>Who We Are</h2>
+        <p>Ecowaste is committed to providing Broward County with eco-friendly waste management solutions. Our mission is to reduce the environmental impact of waste through sustainable practices and innovative solutions. We serve both residential and commercial clients, ensuring a cleaner and greener community for everyone.</p>
+        <img src="team-photo.jpg" alt="Ecowaste Team">
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Residential Waste Management</h3>
+            <p>Reliable and eco-friendly waste collection services for homes.</p>
+            <img src="residential.jpg" alt="Residential Waste Management">
+        </div>
+        <div class="service">
+            <h3>Commercial Waste Management</h3>
+            <p>Tailored waste management solutions for businesses.</p>
+            <img src="commercial.jpg" alt="Commercial Waste Management">
+        </div>
+        <div class="service">
+            <h3>Recycling Services</h3>
+            <p>Comprehensive recycling programs to reduce landfill waste.</p>
+            <img src="recycling.jpg" alt="Recycling Services">
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us-section">
+        <h2>Why Choose Ecowaste?</h2>
+        <ul>
+            <li>Local Expertise: Deep understanding of Broward County’s waste management needs.</li>
+            <li>Eco-Friendly Practices: Committed to reducing environmental impact.</li>
+            <li>Reliable Service: Timely and dependable waste collection and disposal.</li>
+        </ul>
+        <img src="impact-infographic.jpg" alt="Ecowaste Impact">
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p>Phone: (xxx) xxx-xxxx</p>
+            <p>Email: info@ecowaste.com</p>
+            <p>Address: [Business Address]</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="social-links">
+                <!-- Add social media links here -->
+            </ul>
+            <nav class="footer-nav">
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+            <p>© 2024 Ecowaste. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
